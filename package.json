@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "replace",
+  "name": "snake-case-generator",
   "title": "Generate Snake Case String",
-  "description": "Usefull when creating a git branch from a task title. The result will be a Snake Case String",
+  "description": "Useful when creating a git branch from a task title. The result will be a Snake Case String",
   "icon": "extension_icon.png",
   "author": "ramah",
   "categories": [
@@ -14,7 +14,7 @@
       "name": "replace",
       "title": "Generate Snake Case String",
       "subtitle": "Remove all space and replace by Snake case and prepend some gitflow prefix",
-      "description": "Usefull when creating a git branch from a task title. The result will be a Snake Case String",
+      "description": "Useful when creating a git branch from a task title. The result will be a Snake Case String",
       "mode": "no-view",
       "arguments": [
         {
