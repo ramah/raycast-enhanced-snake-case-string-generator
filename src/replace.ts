@@ -29,8 +29,6 @@ export default async function main(props: { arguments: { prefix?: string } }) {
     });
     return;
   }
-
-
 }
 
 function prefixValue(prefix: string): string {
