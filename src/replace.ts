@@ -12,7 +12,7 @@ export default async function main(props: { arguments: { prefix?: string } }) {
       await showHUD("No text in clipboard");
       return;
     }
-    const result = input.replace(/\s+/g, '_').trim();
+    const result = input.replace(/\s+/g, "_").trim();
 
     const resultWithPrefix = props.arguments.prefix ? `${prefixValue(props.arguments.prefix)}${result}` : result;
     await Clipboard.copy(resultWithPrefix);
